@@ -3,8 +3,9 @@ export default {
     componenteFormativo: 'Información base para el diagnóstico del riesgo',
     descripcionCurso:
       'Para establecer el riesgo en un sistema de tratamiento y distribución de agua potable es necesario conocer los principios básicos de la operación de dichos sistemas y los parámetros de medición necesarios en la potabilización del agua. De la misma manera, es importante caracterizar la población beneficiaria del sistema con el fin de conocer sus necesidades.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    fondoBannerInterno: require('@/assets/curso/fondo-banner-interno.jpg'),
   },
   menuPrincipal: {
     menu: [
@@ -31,24 +32,23 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo:
-              'Operaciones unitarias en sistemas de tratamiento y distribución de agua potable',
-            hash: 't_1_1',
+              'Operaciones unitarias en sistemas de tratamiento y distribución de agua potables',
+            hash: 'operunit',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Parámetros físico-químicos y microbiológicos del agua',
-            hash: 't_1_2',
+            hash: 'parametros',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Insumos empleados en potabilización de agua',
-            hash: 't_1_3',
+            titulo: 'Insumos empleados en potabilización de aguas',
+            hash: 'insumos',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
@@ -61,22 +61,15 @@ export default {
             numero: '2.1',
             titulo:
               'Observación de comunidades atendidas por el sistema de tratamiento y distribución de agua potable',
-            hash: 't_2_1',
+            hash: 'observacion',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
             titulo: 'Recopilación de datos etnográficos',
-            hash: 't_2_2',
+            hash: 'recopilacion',
           },
         ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -125,27 +118,135 @@ export default {
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
     },
+    {
+      referencia:
+        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+    },
+    {
+      referencia:
+        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+    },
+    {
+      referencia:
+        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+    },
+    {
+      referencia:
+        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+    },
+    {
+      referencia:
+        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+    },
+    {
+      referencia:
+        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+    },
+    {
+      referencia:
+        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+    },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'MoodBoard',
+      significado:
+        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: '<em>Suftware</em>',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+    },
+    {
+      termino: 'Pirognóstico',
+      significado:
+        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+    },
+    {
+      termino: '<em>Áectores</em>',
+      significado:
+        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+    },
+    {
+      termino: 'Moda',
+      significado:
+        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+    },
+    {
+      termino: 'Diseña',
+      significado:
+        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+    },
+    {
+      termino: 'DIseño',
+      significado:
+        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+    },
+    {
+      termino: 'Tipología',
+      significado:
+        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+    },
+    {
+      termino: 'Bidimensional',
+      significado:
+        'que se representa según su altura y su anchura y no su profundidad.',
+    },
+    {
+      termino: 'Interés Inferior del menor',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+    },
+    {
+      termino: 'Interseccionalidad',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+    },
+    {
+      termino: 'Interés superior del menor',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
     },
   ],
   complementario: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
+      texto:
+        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+      tipo: 'Video',
       link: 'https://www.google.com/',
     },
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
+      texto:
+        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
+      tipo: 'Página web',
       descarga: '/downloads/prueba.pdf',
+    },
+    {
+      texto:
+        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
+      tipo: 'Artículo científico',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto: 'Economía de Rosquilla. (s.f.).',
+      tipo: 'Página web',
+      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
+    },
+    {
+      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+      tipo: 'Video',
+      link: ['https://www.google.com/', 'https://www.google.com/'],
     },
   ],
   creditos: {
@@ -161,7 +262,7 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     desarrolloProducto: [
@@ -169,53 +270,53 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: ['Nombre 1', 'Nombre 2'],
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Desarrollo Front-End',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Nombre',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
   },
