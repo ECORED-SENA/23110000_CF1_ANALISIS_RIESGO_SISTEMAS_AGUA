@@ -58,10 +58,13 @@
                   p.text-bold.textoPeq Sustancias generadas por fenómenos  naturales y sociales
                   p.textoPeq Aporte de contaminantes directos e indirectos (en la cuenca abastecedora, entre la captación y la salida de la planta de tratamiento, entre la salida de la planta de tratamiento y acometidas domiciliarias).
 </template>
-
 <script>
+import BannerInterno from '../components/BannerInterno.vue'
 export default {
   name: 'Introduccion',
+  components: {
+    BannerInterno,
+  },
   data: () => ({
     // variables de vue
   }),

@@ -114,139 +114,174 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Decreto 1575 de 2007. (s.f.). Decreto 1575 de 2007. Por el cual se establece el Sistema para la Protección y Control de la Calidad del Agua. Colombia.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.minambiente.gov.co/images/GestionIntegraldelRecursoHidrico/pdf/Disponibilidad-del-recurso-hidrico/Decreto-1575-de-2007.pdf',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Gallego, P., A., Bravo, Y., J., García, M., M., y Paniagua, G., G. (2018). Criterios de calidad y gestión del agua potable. ENAD',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/111749',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Machuca, S., D. I., y Hervás, T., M. (2012). Operaciones unitarias y proceso químico. IC Editorial.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/42673',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Organización Mundial de la Salud - OMS. (2017). Guías para la calidad del agua de consumo humano.',
+      link: 'https://www.who.int/es/publications/i/item/9789241549950',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Romero, R., J. A. (2000). Purificación del agua. Escuela Colombiana de Ingeniería.',
+    },
+    {
+      referencia:
+        'SENA. (2012). Operación de sistemas de potabilización de agua. [Curso virtual]. SENA.',
+    },
+    {
+      referencia:
+        'Universidad Cooperativa de Colombia. (s.f.). Operación PTAP. Universidad Cooperativa de Colombia.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.ibal.gov.co/sites/default/files/ibal/sites/default/files/images/stories/OPERACION%20PTAP.pdf',
+    },
+    {
+      referencia: 'USGS. (s.f.). El ciclo del agua. The Water Cycle, Spanish.',
+      link:
+        'https://www.usgs.gov/special-topic/water-science-school/science/el-ciclo-del-agua-water-cycle-spanish?qt-science_center_objects=0#qt-science_center_objects',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Rodríguez, M. (s.f.). Propuesta de plan director de agua potable para las localidades de Unquillo y Mendiolaza.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://rdu.unc.edu.ar/bitstream/handle/11086/792/000-GLOSARIO.pdf?sequence=3&isAllowed=y',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Abastecimiento',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'dar o proveer suficientemente de agua potable a una población (Rodríguez, s.f.).',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Ablandamiento',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'eliminación del calcio y el magnesio de un agua para reducir su dureza (Rodríguez, s.f.).',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Afluente',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'curso de agua de ingreso a la planta de potabilización (Rodríguez, s.f.).',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Agua potable',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'aquella que puede beberse sin peligro, no provoca ningún daño para la salud (Rodríguez, s.f.).',
     },
     {
-      termino: 'Moda',
+      termino: 'Agua subterránea',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'agua que puede ser encontrada en la zona satura del suelo; zona que consiste principalmente en agua. Se mueve lentamente desde lugares con alta elevación y presión hacia lugares de baja elevación y presión, como los ríos y lagos (Rodríguez, s.f.).',
     },
     {
-      termino: 'Diseña',
+      termino: 'Agua superficial',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'toda agua natural abierta a la atmósfera, concerniente a ríos, lagos, reservorios, charcas, corrientes, océanos, mares, estuarios y humedales (Rodríguez, s.f.).',
     },
     {
-      termino: 'DIseño',
+      termino: 'Almacenamiento',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'depósito donde se guarda cierta cantidad de agua para su posterior utilización (Rodríguez, s.f.).',
     },
     {
-      termino: 'Tipología',
+      termino: 'Caudal',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'flujo de agua superficial en un río o en un canal (Rodríguez, s.f.).',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Coagulantes',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'partículas líquidas en suspensión que se unen para crear partículas con un volumen mayor (Rodríguez, s.f.).',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Concentración',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'cantidad de material disuelto en una unidad de solución, expresado en miligramos por litro (mg/L) (Rodríguez, s.f.).',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Diagnóstico',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'análisis que se realiza para determinar cualquier situación y cuáles son las tendencias. Esta determinación se realiza sobre la base de datos y hechos recogidos y ordenados sistemáticamente, que permiten juzgar mejor qué es lo que está pasando (Rodríguez, s.f.).',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Infraestructura',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'conjunto de elementos o servicios que se consideran necesarios para la creación y funcionamiento de una organización (Rodríguez, s.f.).',
+    },
+    {
+      termino: 'Mantenimiento',
+      significado:
+        'conjunto de operaciones y cuidados necesarios para que las instalaciones hidráulicas y sanitarias puedan seguir funcionando adecuadamente (Rodríguez, s.f.).',
+    },
+    {
+      termino: 'Microorganismos',
+      significado:
+        'organismos muy pequeños que solo pueden ser observados a través del microscopio (Rodríguez, s.f.).',
+    },
+    {
+      termino: 'OMS',
+      significado: 'Organización Mundial de la Salud.',
+    },
+    {
+      termino: 'ONU',
+      significado: 'Organización de las Naciones Unidas.',
+    },
+    {
+      termino: 'Parámetro',
+      significado:
+        'variable, propiedad medible cuyo valor está determinado por las características del sistema en el caso del agua, por ejemplo, estas pueden ser la temperatura, la presión, la densidad, etc. (Rodríguez, s.f.).',
+    },
+    {
+      termino: 'PTAP',
+      significado: 'Planta de Tratamiento de Agua Potable.',
+    },
+    {
+      termino: 'PTAR',
+      significado: 'Planta de Tratamiento de Aguas Residuales.',
+    },
+    {
+      termino: 'RAS',
+      significado:
+        'Reglamento Técnico para Sector de Agua Potable y Saneamiento Básico.',
+    },
+    {
+      termino: 'USGS',
+      significado: 'Servicio Geológico de los Estados Unidos. ',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Universidad Cooperativa de Colombia. (s.f.). Operación PTAP. Universidad Cooperativa de Colombia.”',
+      tipo: 'Documento PDF',
+      link:
+        'https://www.ibal.gov.co/sites/default/files/ibal/sites/default/files/images/stories/OPERACION%20PTAP.pdf',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Ómnium, G. (2015). La potabilización - Didáctica del agua. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=nq70X1TPRRA',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+        'PNSR. (2016). La ruta del agua potable en el pueblo de Carlitos. [Video]. YouTube.',
       tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link: 'https://www.youtube.com/watch?v=AQvuKNcuv1s',
     },
   ],
   creditos: {
@@ -259,10 +294,25 @@ export default {
     ],
     contenidoInstruccional: [
       {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        nombre: 'Alexander Gómez Reyes',
+        cargo: 'Instructor',
+        centro: 'Regional Valle - Centro de la Construcción',
+      },
+      {
+        nombre: 'Gustavo Santis Mancipe',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro de Diseño y Metrología Regional distrito Capital',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica.',
       },
     ],
     desarrolloProducto: [
@@ -284,7 +334,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jorge Enrique Haylock Calderín ',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

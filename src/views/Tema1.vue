@@ -299,24 +299,24 @@
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row.justify-content-center(titulo="Turbiedad")
-        .col-md-2
+        .col-md-3.col-sm-4
           figure
             img(src='@/assets/template/tema1/figura1.svg')
-        .col-md-8.mb-4.mb-md-0
+        .col-md-8.mb-4.mb-md-0.col-sm-8
           p La turbiedad es el fenómeno óptico que se puede medir por la resistencia del agua al paso de la luz. Se debe a partículas que, en estado de suspensión como los coloides, le dan al líquido la capacidad de dispersar la luz, por ejemplo: tierras finamente divididas. La turbiedad debe tenerse en cuenta para la presentación del agua, pero, además, es importante la desinfección, ya que en esas partículas en suspensión se esconden pequeños organismos que se protegen del desinfectante.
 
       .row.justify-content-center(titulo="Color")
-        .col-md-2
+        .col-md-3.col-sm-4
           figure
             img(src='@/assets/template/tema1/figura2.svg')
-        .col-md-8.mb-4.mb-md-0
+        .col-md-8.mb-4.mb-md-0.col-sm-8
           p Es, en importancia, la segunda característica física del agua; a pesar de estar íntimamente ligado a la turbiedad, se presenta como una característica independiente de ella. El color se debe a diferentes componentes de la materia mineral y vegetal en descomposición; cuando se encuentran disueltos, reciben el nombre de color verdadero; si además hay presencia de arcillas o arenas que enturbien el agua, se le denomina color aparente.
 
       .row.justify-content-center(titulo="Olor y sabor")
-        .col-md-2
+        .col-md-3.col-sm-4
           figure
             img(src='@/assets/template/tema1/figura3.svg')
-        .col-md-8.mb-4.mb-md-0
+        .col-md-8.mb-4.mb-md-0.col-sm-8
           p El olor y sabor del agua son producidos fundamentalmente por:
           .row
             .col-sm.mb-5.mb-sm-0
@@ -332,10 +332,10 @@
                     |  Sales de diferentes orígenes.
 
       .row.justify-content-center(titulo="Temperatura")
-        .col-md-2
+        .col-md-3.col-sm-4
           figure
             img(src='@/assets/template/tema1/figura4.svg')
-        .col-md-8.mb-4.mb-md-0
+        .col-md-8.mb-4.mb-md-0.col-sm-8
           p Se dice que el agua es fresca cuando está a unos 5 ºC por debajo de la temperatura del lugar. Es importante tenerla en cuenta, porque de esta dependen el tipo de organismos que puedan desarrollarse en el agua que también dependen de la cantidad de gases disueltos, la desinfección con cloro y las condiciones de tratamiento.
           p.text-bold.mb-0 La temperatura
           .row
@@ -439,7 +439,7 @@
         .row
           .col-md-12
             figure
-              img(src='@/assets/template/tema1/figura1.png')
+              img(src='@/assets/template/tema1/figura5.svg')
           .col-md-12.mb-4.mb-md-0
           h5.mt-3.mb-2 Desinfección
           p Cloro y sus compuestos, ozono, agua oxigenada; en la imagen se muestra la instalación de equipo para la cloración de agua potable.
@@ -452,7 +452,7 @@ import BannerInterno from '../components/BannerInterno.vue'
 export default {
   name: 'Tema1',
   components: {
-    BannerInterno, // borrar una vez el componente "Muestras" no se necesite
+    BannerInterno,
   },
   data: () => ({
     // variables de vue
