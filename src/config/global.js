@@ -73,11 +73,11 @@ export default {
       },
     ],
     subMenu: [
-      {
+      /*{
         icono: 'fas fa-sitemap',
         titulo: 'Sintesis',
         nombreRuta: 'sintesis',
-      },
+      },*/
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',

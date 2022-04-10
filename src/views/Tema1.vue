@@ -3,22 +3,30 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade")
       .titulo-principal__numero
         span 1
       h1 Principios básicos de tratamiento y distribución de agua potable
     .row.justify-content-center
       .col-xl-8.col-md-12
-        p De acuerdo con Romero (2000), “la purificación del agua es uno de los problemas de las ingenierías civil y ambiental de más urgente solución”. De igual manera, este autor expresa que se debe proveer agua potable a toda la sociedad para garantizar bienestar y comodidad. Sin embargo, existen riesgos dentro del sistema de tratamiento y distribución de agua que se deben tener en cuenta, con el fin de contar con agua de calidad óptima y segura para consumo humano.
+        p De acuerdo con Romero (2000), 
+          span.text-bold “la purificación del agua es uno de los problemas de las ingenierías civil y ambiental de más urgente solución”
+          span . De igual manera, este autor expresa que se debe proveer agua potable a toda la sociedad para garantizar bienestar y comodidad. Sin embargo, existen riesgos dentro del sistema de tratamiento y distribución de agua que se deben tener en cuenta, con el fin de contar con agua de calidad óptima y segura para consumo humano.
         p.mb-4 Teniendo en cuenta lo anterior, existen múltiples sistemas de captación y tratamiento de agua destinada para el consumo humano, dependiendo de la calidad del agua cruda, que se define como el “agua natural que no ha sido sometida a proceso de tratamiento para su potabilización”, de acuerdo con el Decreto 1575 de 2007 (por el cual se establece el Sistema para la Protección y Control de la Calidad del Agua para Consumo Humano), la cual tiene variaciones de una fuente de captación a otra (ríos, quebradas, embalses, lagos naturales, manantiales, agua lluvia, pozos de agua subterránea).
       .col-xl-4.col-md-8
         img.mb-4(src='@/assets/curso/tema1/imagen1.jpg')
     .cajon.color-secundario.p-4.mb-4.fondo2
       p.ms-4 Es por esta razón que los componentes de los sistemas de tratamiento de agua potable varían también. Dichos componentes se denominan operaciones unitarias, que se definen como operaciones básicas comunes basadas en procesos físicos, químicos o biológicos (Machuca y Hervás, 2012), que pueden componer un sistema de tratamiento de agua potable.
-    #operunit.titulo-segundo.color-acento-contenido
+    #operunit.titulo-segundo.color-acento-contenido.mt-5
       h2 1.1 Operaciones unitarias en sistemas de tratamiento y distribución de agua potable
-    p Cuando se diseña y se da en funcionamiento una planta de tratamiento de agua potable se requiere de un estudio de la calidad de agua de fuente de abastecimiento o captación y, de esta manera, la selección apropiada de los procesos y operaciones de tratamiento adecuados, con el fin de producir agua de la calidad requerida en las normas (Romero, 2000). 
-    p.mb-4 Según (Gallego, Bravo, García y Paniagua, 2018), “el agua se considera apta para el consumo humano cuando no contiene ningún tipo de microorganismo, parásito o sustancia, en una cantidad o concentración que pueda suponer un riesgo para la salud humana” (p. 328), por lo que se deben emplear operaciones de tratamiento.
+    p Cuando se diseña y se da en funcionamiento 
+      span.text-bold una planta de tratamiento de agua potable 
+      span se requiere de un 
+      span.text-bold estudio de la calidad
+      span de agua de fuente de abastecimiento o captación y, de esta manera, la selección apropiada de los procesos y operaciones de tratamiento adecuados, con el fin de producir agua de la calidad requerida en las normas (Romero, 2000). 
+    p.mb-4 Según (Gallego, Bravo, García y Paniagua, 2018), 
+      span.text-bold “el agua se considera apta para el consumo humano cuando no contiene ningún tipo de microorganismo, parásito o sustancia, en una cantidad o concentración que pueda suponer un riesgo para la salud humana” 
+      span (p. 328), por lo que se deben emplear operaciones de tratamiento.
     .row.justify-content-center
       .col-10
         .bloque-texto-g.fondo3.p-3.p-sm-4.p-md-5
@@ -26,9 +34,13 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/figura1.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Las aguas naturales habitualmente no tienen las características microbiológicas y fisicoquímicas apropiadas para ser consideradas aptas para el consumo humano por lo que es necesario someterlas a una serie de tratamientos físicos, químicos y biológicos para transformar el agua natural, procedente de embalses u otras captaciones, en agua potable; es decir, agua apta para el consumo humano sin riesgo para la salud y que cumpla con las normas legales sanitarias vigentes” (Gallego, Bravo, García y Paniagua, 2018).   
+            p.mb-0 Las aguas naturales habitualmente no tienen las características microbiológicas y fisicoquímicas apropiadas para ser consideradas aptas para el consumo humano por lo que 
+            span.text-bold es necesario someterlas a una serie de tratamientos físicos, químicos y biológicos para transformar el agua natural, procedente de embalses u otras captaciones
+            span , en agua potable; es decir, agua apta para el consumo humano sin riesgo para la salud y que cumpla con las normas legales sanitarias vigentes” (Gallego, Bravo, García y Paniagua, 2018).   
 
-    p.my-4 Como ya se anotó, los tipos de tratamiento de potabilización que se realicen dependen de las características del agua cruda captada, así como de los criterios de calidad que existen en las normas actuales (Gallego, Bravo, García y Paniagua, 2018).
+    p.my-4 Como ya se anotó, 
+      span.text-bold los tipos de tratamiento de potabilización que se realicen dependen de las características del agua cruda captada, así como de los criterios de calidad que existen en las normas actuales 
+      span (Gallego, Bravo, García y Paniagua, 2018).
     p.mb-4 Es importante mencionar que, según lo anterior, en el tratamiento de agua para consumo humano se deben implementar diversos procesos u operaciones para su potabilización. En la Tabla 1 se presentan los procesos de tratamiento de agua potable más empleados:
 
     .titulo-sexto.color-acento-contenido.ms-5
@@ -41,7 +53,7 @@
             caption Nota. Tomada de Romero (2000). 
             thead
               tr
-                th Proceso
+                th.anchocolumna Proceso
                 th Propósito
               tr
                 <th colspan="2" style="background-color:#FAFAFA;">Tratamiento preliminar</th>
@@ -114,14 +126,16 @@
                 td 
                   p.ms-5 Exterminio de organismos patógenos.
 
-    p.my-4 En la siguiente figura se presentan los diagramas de flujo de las operaciones de tratamiento más empleadas en plantas de potabilización de agua.
+    p.my-5 En la siguiente figura se presentan los diagramas de flujo de las operaciones de tratamiento más empleadas en plantas de potabilización de agua.
     .titulo-sexto.color-acento-contenido
       h5 Figura 1
       span Diagramas de flujo de operaciones de tratamiento empleadas en potabilización de agua
     .row.justify-content-center
       .col-11
         img(src='@/assets/curso/tema1/figura2.svg')
-    p.my-4 A continuación, se explican los procesos u operaciones más comunes empleados en plantas de tratamiento de agua para su potabilización, de acuerdo con Romero (2000):
+    p.my-5 A continuación, se explican 
+      span.text-bold los procesos u operaciones más comunes 
+      span empleados en plantas de tratamiento de agua para su potabilización, de acuerdo con Romero (2000):
 
     TabsA.color-acento-contenido.mb-5
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
@@ -259,21 +273,21 @@
                       span.text-bold c. 
                       |  Oxígeno disuelto.
 
-    p.my-4 Para complementar el tema de procesos u operaciones más comunes empleados en las PTAR para su potabilización, se solicita al aprendiz ver los videos La potabilización - Didáctica del agua y La ruta del agua potable en el pueblo de Carlitos ubicados en el material complementario, donde se muestran dichos procesos; además se invita a profundizar el tema con la lectura del documento Operación planta de tratamiento de agua potable, también ubicado en la sección de material complementario.
+    p.my-5 Para complementar el tema de procesos u operaciones más comunes empleados en las PTAR para su potabilización, se solicita al aprendiz ver los videos La potabilización - Didáctica del agua y La ruta del agua potable en el pueblo de Carlitos ubicados en el material complementario, donde se muestran dichos procesos; además se invita a profundizar el tema con la lectura del documento Operación planta de tratamiento de agua potable, también ubicado en la sección de material complementario.
 
-    #parametros.titulo-segundo.color-acento-contenido
+    #parametros.titulo-segundo.color-acento-contenido.mt-5
       h2 1.2 Parámetros físico-químicos y microbiológicos del agua
     p.mb-4 El agua se considera apta para al consumo humano cuando está libre de sustancias contaminantes o microorganismos que se encuentren en una cantidad o concentración que puedan ser peligrosas para la salud de las personas (Gallego, Bravo, García y Paniagua, 2018); otros factores a tener en cuenta son: 
 
     SlyderB.mb-5(:datos="datosSlyder")
-    p.my-4 La siguiente figura presenta el ciclo hidrológico natural sin la influencia de las actividades humanas.
+    p.my-5 La siguiente figura presenta el ciclo hidrológico natural sin la influencia de las actividades humanas.
     .titulo-sexto.color-acento-contenido
       h5 Figura 2
       span Ciclo hidrológico natural
     img.my-4(src='@/assets/curso/tema1/figura8.svg')
     p.mb-4 Entrando en materia, las sustancias que alteran la calidad del agua pueden presentarse de la siguiente manera (SENA, 2012)
-    .row.align-items-center
-      .col-xl-7.col-sm.mb-5.mb-sm-0.mt-5
+    .row.align-items-center.justify-content-center
+      .col-xl-7.col-sm-12.mb-5.mb-sm-0.mt-5
         ol.lista-ol--cuadro.lista-ol--separador
           li 
             .lista-ol--cuadro__vineta
@@ -291,28 +305,28 @@
             .lista-ol--cuadro__vineta
               span 4
             | Sólidos disueltos.
-      .col-xl-4
+      .col-xl-4.col-sm-6
         img.ms-4(src='@/assets/curso/tema1/figura9.svg')
     p.my-5 Es importante mencionar que la presencia y concentración de los sólidos en el agua dependen de las características de la cuenca (vegetación, suelos, estado) y del estado del tiempo (temporada de lluvias, temporada seca); de esta forma, los sólidos se pueden agrupar en tres tipos de características que agrupan los parámetros de calidad del agua potable, estas son (SENA, 2012):
     h2.mb-5 Características físicas
     p.mb-5 Se denominan físicas porque pueden ser detectadas por medio de los sentidos, lo cual implica que tienen incidencia directa sobre las condiciones estéticas del agua, es decir, en su buena presentación. Las características físicas del agua son:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-      .row.justify-content-center(titulo="Turbiedad")
+      .row.justify-content-center.align-items-center(titulo="Turbiedad")
         .col-md-3.col-sm-4
           figure
-            img(src='@/assets/template/tema1/figura1.svg')
+            img.reducirFig(src='@/assets/template/tema1/figura1.svg')
         .col-md-8.mb-4.mb-md-0.col-sm-8
           p La turbiedad es el fenómeno óptico que se puede medir por la resistencia del agua al paso de la luz. Se debe a partículas que, en estado de suspensión como los coloides, le dan al líquido la capacidad de dispersar la luz, por ejemplo: tierras finamente divididas. La turbiedad debe tenerse en cuenta para la presentación del agua, pero, además, es importante la desinfección, ya que en esas partículas en suspensión se esconden pequeños organismos que se protegen del desinfectante.
 
-      .row.justify-content-center(titulo="Color")
+      .row.justify-content-center.align-items-center(titulo="Color")
         .col-md-3.col-sm-4
           figure
             img(src='@/assets/template/tema1/figura2.svg')
         .col-md-8.mb-4.mb-md-0.col-sm-8
           p Es, en importancia, la segunda característica física del agua; a pesar de estar íntimamente ligado a la turbiedad, se presenta como una característica independiente de ella. El color se debe a diferentes componentes de la materia mineral y vegetal en descomposición; cuando se encuentran disueltos, reciben el nombre de color verdadero; si además hay presencia de arcillas o arenas que enturbien el agua, se le denomina color aparente.
 
-      .row.justify-content-center(titulo="Olor y sabor")
+      .row.justify-content-center.align-items-center(titulo="Olor y sabor")
         .col-md-3.col-sm-4
           figure
             img(src='@/assets/template/tema1/figura3.svg')
@@ -331,7 +345,7 @@
                     span.text-bold c. 
                     |  Sales de diferentes orígenes.
 
-      .row.justify-content-center(titulo="Temperatura")
+      .row.justify-content-center.align-items-center(titulo="Temperatura")
         .col-md-3.col-sm-4
           figure
             img(src='@/assets/template/tema1/figura4.svg')
@@ -355,55 +369,57 @@
     p.mb-5 Por ser el agua un solvente universal, existe la posibilidad de presentar disueltos cantidad de compuestos y elementos, que pueden presentar efectos sobre la salud humana, las características químicas son:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-      .row.justify-content-center(titulo="pH (potencial de Hidrogeniones)")
+      .row(titulo="pH (potencial de Hidrogeniones)")
         .col-md-7.mb-4.mb-md-0
-          p Es importante considerar el pH del agua, porque tiene efecto sobre los procesos de tratamiento y se relación con la obstrucción y deterioro de las redes de acueducto. Además, el pH determina las reacciones químicas afectando, por ejemplo, el proceso de desinfección con cloro. Las actividades biológicas se desarrollan en un intervalo de pH entre el 6 y 8.
+          p.ms-5 Es importante considerar el pH del agua, porque tiene efecto sobre los procesos de tratamiento y se relación con la obstrucción y deterioro de las redes de acueducto. Además, el pH determina las reacciones químicas afectando, por ejemplo, el proceso de desinfección con cloro. Las actividades biológicas se desarrollan en un intervalo de pH entre el 6 y 8.
 
-          p El pH se define como la intensidad de acidez y /o alcalinidad de una muestra de agua y se evalúa por una escala de valores, que se presenta a continuación:
-        .col-md-3
-          img(src='@/assets/curso/tema1/figura10.svg')
+          p.ms-5 El pH se define como la intensidad de acidez y /o alcalinidad de una muestra de agua y se evalúa por una escala de valores, que se presenta a continuación:
+        .col-md-4
+          img.ms-5(src='@/assets/curso/tema1/figura10.svg')
 
-      .row.justify-content-center(titulo="Valor del pH aceptable")
+      .row.ms-5(titulo="Valor del pH aceptable")
         .col-md-7.mb-4.mb-md-0
-          p Si el valor del pH del agua se encuentra entre 6,5 y 9,0 se considera aceptable para los procesos de tratamiento. La mayoría de las aguas superficiales que se encuentran dentro de este rango, lo que garantiza una buena desinfección y reducción de los problemas de corrosión. Se entiende, entonces, que el valor del pH no es tan importante desde el punto de vista de salud, como lo es desde el económico.
-        .col-md-3
+          p.ms-5 Si el valor del pH del agua se encuentra entre 6,5 y 9,0 se considera aceptable para los procesos de tratamiento. La mayoría de las aguas superficiales que se encuentran dentro de este rango, lo que garantiza una buena desinfección y reducción de los problemas de corrosión. Se entiende, entonces, que el valor del pH no es tan importante desde el punto de vista de salud, como lo es desde el económico.
+        .col-md-4
           figure
-            img(src='@/assets/template/tema1/imagen6.jpg')
+            img.ms-5(src='@/assets/template/tema1/imagen6.png')
 
       .row.justify-content-center(titulo="Acidez")
         .col-md-7.mb-4.mb-md-0
           p.mt-5 La acidez del agua es una medida de la cantidad total de sustancias ácidas presentes en ella, expresadas como carbonato de calcio equivalente.
-        .col-md-3
+        .col-md-4
           figure
-            img(src='@/assets/template/tema1/imagen7.jpg')
+            img(src='@/assets/template/tema1/imagen7.png')
 
       .row.justify-content-center(titulo="Alcalinidad")
         .col-md-7.mb-4.mb-md-0
-          p La alcalinidad del agua se mide por su capacidad para neutralizar ácidos. En aguas naturales la alcalinidad se debe principalmente a la disolución de rocas calizas. La alcalinidad es importante en el tratamiento del agua porque reacciona con coagulantes para favorecer la floculación. Tiene incidencia sobre el carácter incrustante que pueda tener en el agua y si está presente en altas cantidades tiene efecto sobre el sabor y la turbiedad. Un alto valor de la alcalinidad hace que el agua produzca efectos destructivos en las tuberías de acueducto, como el fenómeno de incrustación, que disminuye la capacidad de transporte de las tuberías.
-        .col-md-3
+          p.ms-5 La alcalinidad del agua se mide por su capacidad para neutralizar ácidos. En aguas naturales la alcalinidad se debe principalmente a la disolución de rocas calizas. La alcalinidad es importante en el tratamiento del agua porque reacciona con coagulantes para favorecer la floculación. Tiene incidencia sobre el carácter incrustante que pueda tener en el agua y si está presente en altas cantidades tiene efecto sobre el sabor y la turbiedad. Un alto valor de la alcalinidad hace que el agua produzca efectos destructivos en las tuberías de acueducto, como el fenómeno de incrustación, que disminuye la capacidad de transporte de las tuberías.
+        .col-md-4
           figure
-            img(src='@/assets/template/tema1/imagen8.jpg')
+            img(src='@/assets/template/tema1/imagen8.png')
 
       .row.justify-content-center(titulo="Dureza")
         .col-md-7.mb-4.mb-md-0
           p.mt-5 La dureza afecta procesos industriales y en algunos casos puede dar sabor al agua. Cuando las aguas son muy suaves o blandas disuelven rápidamente el jabón.
-        .col-md-3
+        .col-md-4
           figure
-            img(src='@/assets/template/tema1/imagen8.jpg')
+            img(src='@/assets/template/tema1/imagen8.png')
 
       .row.justify-content-center(titulo="Oxígeno disuelto")
         .col-md-7.mb-4.mb-md-0
           p Las aguas poco contaminadas están saturadas de oxígeno disuelto; si a estas aguas se les descargan residuos orgánicos se les agota el oxígeno disuelto, debido a que es empleado por microorganismos para degradar la materia orgánica. 
           p El oxígeno en el agua permite la existencia de peces y plantas, y le da un sabor agradable al agua.
-        .col-md-3
+        .col-md-4
           figure
-            img(src='@/assets/template/tema1/imagen9.jpg')
+            img(src='@/assets/template/tema1/imagen9.png')
 
     h2.my-5 Características microbiológicas
-    p.mb-5 Las aguas naturales tienen asociados una serie de organismos que son habitantes normales en ella como:
+    p.mb-5 Las aguas naturales tienen asociados una serie de 
+      span.text-bold organismos que son habitantes normales 
+      span en ella como:
     .row.justify-content-center
-      .col-10
-        img(src='@/assets/curso/tema1/figura11.svg')
+      .col-xl-10.col-sm-12
+        img.mb-5(src='@/assets/curso/tema1/figura11.svg')
 
     p.mb-4 La contaminación producida por el ser humano, ocasiona que las aguas puedan contener algunos microorganismos perjudiciales para la salud humana. La determinación de la presencia de estos organismos en el agua es difícil y poco práctica para realizarla como actividad de rutina.
     .cajon.color-acento-contenido.p-4.mb-4.fondo6
@@ -417,10 +433,10 @@
         img.mb-2(src='@/assets/curso/tema1/imagen2.jpg')
         .titulo-sexto.color-acento-contenido
           span Bacterias coliformes en placas de Petri
-    #insumos.titulo-segundo.color-acento-contenido
+    #insumos.titulo-segundo.color-acento-contenido.mt-5
       h2 1.3 Insumos empleados en potabilización de agua
     .row.justify-content-center.align-items-center
-      .col-xl-4.col-sm-12.mb-4
+      .col-xl-4.col-sm-6.mb-4
         img.mb-2(src='@/assets/curso/tema1/figura12.svg')
       .col-xl-7.col-sm-12.mb-4.ms-4
         p En la potabilización del agua se emplean diversos insumos químicos, que tienen la función de minimizar los efectos contaminantes en los parámetros físico-químicos y microbiológicos. De esta manera, para algunas de las operaciones unitarias o fases del proceso de tratamiento de agua potable, se encuentran los siguientes insumos:
