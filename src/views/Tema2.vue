@@ -9,9 +9,9 @@
       h1 Caracterización de comunidades
 
     .row
-      .col-xl-8.col-sm-12
+      .col-xl-8.col-sm-12(data-aos="flip-right")
         h4 En el proceso de tratamiento de agua potable es importante establecer las características socioeconómicas de la comunidad a ser atendida por el sistema.
-        p Dentro de las variables para tener en cuenta se encuentran:
+        p(data-aos="fade-right") Dentro de las variables para tener en cuenta se encuentran:
         ul.lista-ul--color
           li.color-primario
             i.fas.fa-thumbtack
@@ -23,35 +23,49 @@
             i.fas.fa-thumbtack
             | El tipo de administración del servicio (público, privado, mixto).
 
-      .col-xl-4.col-sm-12
+      .col-xl-4.col-sm-12(data-aos="flip-left")
         img.mb-4(src='@/assets/curso/tema2/imagen1.jpg')
-
-    #observacion.titulo-segundo.color-acento-contenido.mt-5
+    separador
+    #observacion.titulo-segundo.color-acento-contenido.mt-5(data-aos="fade")
       h2 2.1 Observación de comunidades atendidas por el sistema de tratamiento y distribución de agua potable
     .row.justify-content-center
-      .col-xl-4.col-sm-8
+      .col-xl-4.col-sm-8(data-aos="zoom-right")
         img.mb-4(src='@/assets/curso/tema2/figura1.svg')
-      .col-xl-8.col-sm-12
-        p Con el fin de establecer el grado de riesgo de la población atendida por el sistema, es necesario tener en cuenta variables relacionadas con la administración del servicio (tipo de empresa, conocimiento o experticia de los empleados, procesos de adquisición de insumos, etc.). De igual forma, es indispensable conocer el número de suscriptores del servicio a atender por el sistema, así como el porcentaje de cobertura del sistema.
-        p Es fundamental conocer si dentro del sistema de distribución de agua potable existe la medición del agua consumida, tanto de la salida de la planta de potabilización (macromedición) como de cada suscriptor (micromedición), para determinar el agua no contabilizada y por consiguiente no facturada en el sistema y las tarifas aplicadas a los suscriptores; también el presupuesto con el que cuenta la organización encargada de la administración del sistema. 
-    p.my-5 Otro aspecto para considerar es el de la estructura organizacional de la entidad o empresa encargada de la administración y operación del sistema de tratamiento y distribución del agua potable, así como la asesoría técnica y financiera con las que cuenta la empresa encargada del sistema.
+      .col-xl-8.col-sm-12(data-aos="flip-up")
+        p Con el fin de establecer el grado de riesgo de la población atendida por el sistema, es necesario tener en cuenta 
+          span.text-bold variables 
+          span relacionadas con la 
+          span.text-bold administración del servicio 
+          span (tipo de empresa, conocimiento o experticia de los empleados, procesos de adquisición de insumos, etc.). De igual forma, es indispensable conocer el 
+          span.text-bold número de suscriptores del servicio 
+          span a atender por el sistema, así como el porcentaje de cobertura del sistema.
+        p Es fundamental conocer si dentro del sistema de distribución de agua potable existe la 
+          span.text-bold medición del agua consumida
+          span , tanto de la salida de la planta de potabilización 
+          span.text-bold (macromedición) 
+          span como de cada suscriptor 
+          span.text-bold (micromedición)
+          span , para determinar el agua no contabilizada y por consiguiente no facturada en el sistema y las tarifas aplicadas a los suscriptores; también el presupuesto con el que cuenta la organización encargada de la administración del sistema. 
+    p.my-5(data-aos="flip-down") Otro aspecto para considerar es el de la 
+      span.text-bold estructura organizacional de la entidad o empresa 
+      span encargada de la administración y operación del sistema de tratamiento y distribución del agua potable, así como la asesoría técnica y financiera con las que cuenta la empresa encargada del sistema.
 
     .row.mb-5.my-5.justify-content-center
       .col-md-4.col-lg-4.mb-5.mb-lg-0
         .tarjeta-avatar
-          .tarjeta.fondo8.efecto-tarjeta.quitarRedondeo
+          .tarjeta.fondo8.efecto-tarjeta.quitarRedondeo(data-aos="flip-right")
             .p-3
               p.text-center.text-dark.text-bold Macromedidor para agua potable
             img(src='@/assets/curso/tema2/imagen4.jpg')
 
       .col-md-4.col-lg-4.mb-5.mb-lg-0
         .tarjeta-avatar
-          .tarjeta.fondo9.efecto-tarjeta.quitarRedondeo
+          .tarjeta.fondo9.efecto-tarjeta.quitarRedondeo(data-aos="flip-left")
             .p-3
               p.text-center.text-dark.text-bold Micromedidor para agua potable
             img(src='@/assets/curso/tema2/imagen5.jpg')        
 
-    .cajon.color-secundario.p-4.mb-4.fondo2
+    .cajon.color-secundario.p-4.mb-4.fondo2npm(data-aos="flip-up")
       .row.justify-content-center.align-items-center
         .col-2
           img.reducir2(src='@/assets/curso/tema2/figura2.svg')
@@ -62,9 +76,9 @@
           span que, en relación con las actividades preliminares para llevar a cabo un proyecto relacionado con el sistema de potabilización en una población, se debe tener:
 
     .row.align-items-center.justify-content-center
-      .col-xl-3.col-sm-6
+      .col-xl-3.col-sm-6(data-aos="flip-right")
         img.ms-4(src='@/assets/curso/tema2/figura3.svg')
-      .col-xl-8.col-sm-12.mb-5.mb-sm-0.mt-5.ms-5
+      .col-xl-8.col-sm-12.mb-5.mb-sm-0.mt-5.ms-5(data-aos="flip-up")
         ol.lista-ol--cuadro.lista-ol--separador
           li 
             .lista-ol--cuadro__vineta
@@ -85,15 +99,16 @@
           li 
             .lista-ol--cuadro__vineta
               span 5
-            | Diagnóstico y evaluación del sistema existente.          
-    #recopilacion.titulo-segundo.color-acento-contenido.my-5
+            | Diagnóstico y evaluación del sistema existente.      
+    separador    
+    #recopilacion.titulo-segundo.color-acento-contenido.my-3(data-aos="fade")
       h2 2.2 Recopilación de datos etnográficos
 
-    .cajon.color-acento-contenido.p-4.mb-4.fondo6.my-5
+    .cajon.color-acento-contenido.p-4.mb-4.fondo6.my-5(data-aos="flip-down")
       p.ms-4 Colombia cuenta con la reglamentación técnica de los sistemas de acueducto y alcantarillado, compilada dentro del Reglamento Técnico para Sector de Agua Potable y Saneamiento Básico (RAS), expedido por el Ministerio de Vivienda, Ciudad y Territorio en la Resolución 330 de 2017, donde se establece que: 
 
 
-    ImagenInfografica.color-secundario.mb-5
+    ImagenInfografica.color-secundario.mb-5(data-aos="flip-up")
       template(v-slot:imagen)
         .row.justify-content-center
           .col-xl-6.col-sm-12
@@ -101,7 +116,7 @@
               img(src='@/assets/curso/tema2/figura4.svg')
 
       .tarjeta.fondo10.p-3.ampliar-tarjeta(x="40.8%" y="8%" numero="+" )
-        .h5.mb-2 Artículo 245
+        .h5.mb-2(data-aos="flip-right") Artículo 245
         p Establece que “todo proyecto que se desarrolle en zonas de resguardo o reserva indígena o en zonas adjudicadas a comunidades negras deberá adelantar procesos de consulta previa, ante el Ministerio del Interior”.
 
       .tarjeta.fondo10.p-3.ampliar-tarjeta(x="58.6%" y="8%" numero="+" )
@@ -133,11 +148,11 @@
         .h5.mb-2 Artículo 106 (definición del nivel de riesgo sanitario):
         p Establece que se debe efectuar una visita de inspección sanitaria a la microcuenca abastecedora por parte del responsable del proyecto de tratamiento de agua potable (el cual generalmente es la empresa prestadora del servicio de acueducto), con el fin de “estar enfocados a recopilar información de la comunidad e identificar prácticas inadecuadas que generen algún tipo de contaminación en la fuente de agua”.
 
-    p.mb-4 Finalmente y con el fin de sintetizar el contenido de este componente formativo se presenta el siguiente mapa conceptual:
-    .titulo-sexto.color-acento-contenido.mb-5
+    p.mb-4(data-aos="zoom-in") Finalmente y con el fin de sintetizar el contenido de este componente formativo se presenta el siguiente mapa conceptual:
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade")
       h5 Figura 3
       span Análisis de riesgos en sistemas de agua y saneamiento - Información base para el diagnóstico del riesgo 
-    img.ms-4(src='@/assets/curso/tema2/figura5.svg')
+    img.ms-4(data-aos="flip-right")(src='@/assets/curso/tema2/figura5.svg')
   
 </template>
 
