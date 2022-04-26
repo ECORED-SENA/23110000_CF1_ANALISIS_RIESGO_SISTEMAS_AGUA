@@ -65,19 +65,20 @@
               p.text-center.text-dark.text-bold Micromedidor para agua potable
             img(src='@/assets/curso/tema2/imagen5.jpg')        
 
-    .cajon.color-secundario.p-4.mb-4.fondo2npm(data-aos="flip-up")
+    .cajon.color-secundario.p-4.mb-4.fondo2(data-aos="flip-up")
       .row.justify-content-center.align-items-center.mb-4
         .col-xl-2.col-md-3.col-sm-8.col-8
-          img.reducir2.mb-2(src='@/assets/curso/tema2/figura2.svg')
+          img.reducir2(src='@/assets/curso/tema2/figura2.svg')
         .col-xl-9.col-md-9.col-sm-10-col-11
-          span.my-3.text-bold La Resolución 330 de 2017 
-          span (Reglamento Técnico para Sector de Agua Potable y Saneamiento Básico-RAS), expedida por el Ministerio de Vivienda, Ciudad y Territorio, establece en el 
-          span.text-bold artículo 8° 
-          span que, en relación con las actividades preliminares para llevar a cabo un proyecto relacionado con el sistema de potabilización en una población, se debe tener:
+          p.my-3 La 
+            span.text-bold Resolución 330 de 2017 
+            span (Reglamento Técnico para Sector de Agua Potable y Saneamiento Básico-RAS), expedida por el Ministerio de Vivienda, Ciudad y Territorio, establece en el 
+            span.text-bold artículo 8° 
+            span que, en relación con las actividades preliminares para llevar a cabo un proyecto relacionado con el sistema de potabilización en una población, se debe tener:
 
     .row.align-items-center.justify-content-center
       .col-xl-3.col-sm-6(data-aos="flip-right")
-        img.ms-4(src='@/assets/curso/tema2/figura3.svg')
+        img.ms-2(src='@/assets/curso/tema2/figura3.svg')
       .col-xl-8.col-sm-12.mb-5.mb-sm-0.mt-5.ms-5(data-aos="flip-up")
         ol.lista-ol--cuadro.lista-ol--separador
           li 
@@ -104,12 +105,16 @@
     #recopilacion.titulo-segundo.color-acento-contenido.my-3(data-aos="fade")
       h2 2.2 Recopilación de datos etnográficos
 
-    .cajon.color-acento-contenido.p-4.mb-4.fondo6.my-5(data-aos="flip-down")
+    .cajon.color-acento-contenido.p-4.mb-4.fondo2.my-5(data-aos="flip-down")
       .row.justify-content-center.align-items-center.mb-4
         .col-xl-2.col-md-3.col-sm-8.col-8
-          img.reducir2.mb-2(src='@/assets/curso/tema2/figura2.svg')
+          img.reducir2(src='@/assets/curso/tema2/figura2.svg')
         .col-xl-9.col-lg-9.col-md-9.col-sm-10-col-11
-          p.ms-4 Colombia cuenta con la reglamentación técnica de los sistemas de acueducto y alcantarillado, compilada dentro del Reglamento Técnico para Sector de Agua Potable y Saneamiento Básico (RAS), expedido por el Ministerio de Vivienda, Ciudad y Territorio en la Resolución 330 de 2017, donde se establece que: 
+          p.ms-4.mt-3 Colombia cuenta con la reglamentación técnica de los sistemas de acueducto y alcantarillado, compilada dentro del 
+            span.text-bold Reglamento Técnico para Sector de Agua Potable y Saneamiento Básico (RAS)
+            span , expedido por el Ministerio de Vivienda, Ciudad y Territorio en la 
+            span.text-bold Resolución 330 de 2017
+            span , donde se establece que: 
 
 
     ImagenInfografica.color-secundario.mb-5(data-aos="flip-up")
@@ -156,7 +161,7 @@
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade")
       h5 Figura 3
       span Análisis de riesgos en sistemas de agua y saneamiento - Información base para el diagnóstico del riesgo 
-    img.ms-4(data-aos="flip-right")(src='@/assets/curso/tema2/figura5.svg')
+    img.ms-2(src='@/assets/curso/tema2/figura5.svg')
   
 </template>
 

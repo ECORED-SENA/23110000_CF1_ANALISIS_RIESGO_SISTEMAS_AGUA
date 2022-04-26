@@ -307,7 +307,7 @@
               span 4
             | Sólidos disueltos.
       .col-xl-4.col-sm-6(data-aos="flip-right")
-        img.ms-4(src='@/assets/curso/tema1/figura9.svg')
+        img.ms-2(src='@/assets/curso/tema1/figura9.svg')
     p.my-5(data-aos="flip-up") Es importante mencionar que la presencia y concentración de los sólidos en el agua dependen de las características de la cuenca (vegetación, suelos, estado) y del estado del tiempo (temporada de lluvias, temporada seca); de esta forma, los sólidos se pueden agrupar en tres tipos de características que agrupan los parámetros de calidad del agua potable, estas son (SENA, 2012):
     h2.mb-5(data-aos="flip-left") Características físicas
     p.mb-5(data-aos="flip-right") Se denominan físicas porque pueden ser detectadas por medio de los sentidos, lo cual implica que tienen incidencia directa sobre las condiciones estéticas del agua, es decir, en su buena presentación. Las características físicas del agua son:
