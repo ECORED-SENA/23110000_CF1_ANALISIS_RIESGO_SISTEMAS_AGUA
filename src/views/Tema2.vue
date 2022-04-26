@@ -114,7 +114,8 @@
             span.text-bold Reglamento Técnico para Sector de Agua Potable y Saneamiento Básico (RAS)
             span , expedido por el Ministerio de Vivienda, Ciudad y Territorio en la 
             span.text-bold Resolución 330 de 2017
-            span , donde se establece que: 
+            span , donde se
+            span establece que: 
 
 
     ImagenInfografica.color-secundario.mb-5(data-aos="flip-up")

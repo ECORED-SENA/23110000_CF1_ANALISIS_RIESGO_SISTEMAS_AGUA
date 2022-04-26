@@ -424,7 +424,8 @@
 
     p.mb-4(data-aos="zoom-right") La contaminación producida por el ser humano, ocasiona que las aguas puedan contener algunos microorganismos perjudiciales para la salud humana. La determinación de la presencia de estos organismos en el agua es difícil y poco práctica para realizarla como actividad de rutina.
     .cajon.color-acento-contenido.p-4.mb-4.fondo6
-      p.ms-4(data-aos="zoom-left") A través de los análisis bacteriológicos se determina el riesgo que involucra consumir el agua; los análisis bacteriológicos en el agua buscan determinar el nivel de bacterias coliformes que, normalmente, no son nocivas para la salud, son habitantes normales del tracto intestinal del hombre y de los animales y en cada deposición se encuentran en grandes cantidades. Estas características hacen que se les considere como indicadores de la calidad bacteriológica del agua.
+      p.ms-4(data-aos="zoom-left") A través de los análisis bacteriológicos se determina el riesgo que involucra consumir el agua; los análisis bacteriológicos en el agua buscan determinar el nivel de bacterias coliformes que, normalmente, no son nocivas para la salud, son habitantes normales del tracto intestinal del hombre y de los animales y en cada deposición se encuentran en grandes cantidades. Estas características hacen que se les considere como indicadores de la calidad bacteriológica 
+        span del agua.
     .row
       .col-xl-6.col-sm-12.mb-4
         .bloque-texto-b.fondo7.ps-0.pt-4.pb-4.pe-4(data-aos="flip-right")
