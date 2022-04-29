@@ -17,7 +17,7 @@
             .col-sm.mb-3.mb-sm-0(data-aos="flip-up")
               p.fw-bold.mb-0 Preguntas de opción múltiple con única respuesta.
             .col-auto(data-aos="flip-right")
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad1/Actividad didáctica - Storyline output/Actividad didáctica - Storyline output/index.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 
