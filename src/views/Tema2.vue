@@ -114,7 +114,7 @@
             span.text-bold Reglamento Técnico para Sector de Agua Potable y Saneamiento Básico (RAS)
             span , expedido por el Ministerio de Vivienda, Ciudad y Territorio en la 
             span.text-bold Resolución 330 de 2017
-            span , donde se
+            span , donde se 
             span establece que: 
 
 
@@ -126,13 +126,13 @@
               img(src='@/assets/curso/tema2/figura4.svg')
 
       .tarjeta.fondo10.p-3.ampliar-tarjeta(x="40.8%" y="8%" numero="+" )
-        .h5.mb-2(data-aos="flip-right") Artículo 245
+        .h5.mb-2(data-aos="flip-right") Artículo 249
         p Establece que “todo proyecto que se desarrolle en zonas de resguardo o reserva indígena o en zonas adjudicadas a comunidades negras deberá adelantar procesos de consulta previa, ante el Ministerio del Interior”.
 
       .tarjeta.fondo10.p-3.ampliar-tarjeta(x="58.6%" y="8%" numero="+" )
         .h5.mb-2 Artículo 3 (criterios orientadores):
         span.text-bold Numeral 7: 
-        span “Durante las etapas del proyecto, la interacción con la comunidad deberá ser proactiva y preventiva”, al referirse a los principios orientadores de la planeación, diseño y ejecución de las obras y de las actividades de operación y mantenimiento de sistemas de agua y saneamiento.
+        span “durante las etapas del proyecto, la interacción con la comunidad deberá ser proactiva y preventiva”, al referirse a los principios orientadores de la planeación, diseño y ejecución de las obras y de las actividades de operación y mantenimiento de sistemas de agua y saneamiento.
 
       .tarjeta.fondo10.p-3.ampliar-tarjeta(x="32.2%" y="41%" numero="+")
         .h5.mb-2 Artículo 245 (autorizaciones relacionadas con la gestión socioeconómica), numerales:

@@ -25,7 +25,7 @@
             img.reducir.subirImg(src='@/assets/componentes/intro/organico.svg' alt='AvatarCenter')
             .text-white.pe-3.ps-3.pb-2
               p.text-bold.textoPeq.margen-titulo Residuos biodegradables
-              p.textoPeq Cumplir con las funciones y responsabilidades de gestión de riesgo de Materia fecal, restos de alimentos, grasas y aceites (aumento  nutrientes, aumento demanda  bioquímica de oxígeno, disminución de oxígeno disuelto).
+              p.textoPeq Materia fecal, restos de alimentos, grasas y aceites (aumento  nutrientes, aumento demanda  bioquímica de oxígeno, disminución de oxígeno disuelto).
 
       .col-md-6.col-lg.mb-2.mb-lg-0
         .tarjeta-avatar.efecto-tarjeta(data-aos="flip-right")

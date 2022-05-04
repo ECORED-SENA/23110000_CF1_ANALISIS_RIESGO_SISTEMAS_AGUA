@@ -35,6 +35,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/figura1.png')})`}"
           )
           .bloque-texto-g__texto.p-4
+            p Estos mismos autores se refieren a que:<br>
             p.mb-0 Las aguas naturales habitualmente no tienen las características microbiológicas y fisicoquímicas apropiadas para ser consideradas aptas para el consumo humano por lo que 
             span.text-bold es necesario someterlas a una serie de tratamientos físicos, químicos y biológicos para transformar el agua natural, procedente de embalses u otras captaciones
             span , en agua potable; es decir, agua apta para el consumo humano sin riesgo para la salud y que cumpla con las normas legales sanitarias vigentes” (Gallego, Bravo, García y Paniagua, 2018).   
@@ -108,7 +109,7 @@
                   p.ms-5 Remoción de sólidos finos, floc en suspensión y la mayoría de los microorganismos.
               tr
                 td 
-                  p.ms-5 Absorción
+                  p.ms-5 Adsorción
                 td 
                   p.ms-5 Remoción de sustancias orgánicas y color.
               tr
@@ -169,10 +170,10 @@
                       span.text-bold e. 
                       | Rejillas difusoras.
                     li 
-                      span.text-bold e. 
+                      span.text-bold f. 
                       | Chorros químicos.
                     li 
-                      span.text-bold e. 
+                      span.text-bold g. 
                       | Tanques con equipos de mezcla rápida.
 
       .tarjeta.fondo5.p-4(titulo="Mezcla rápida 2/2")
@@ -269,7 +270,7 @@
                       | Temperatura.
                     li 
                       span.text-bold b. 
-                      | PH.
+                      | pH.
                     li 
                       span.text-bold c. 
                       |  Oxígeno disuelto.
@@ -339,6 +340,9 @@
                   li 
                     span.text-bold a. 
                     | Algas.
+                  li 
+                    span.text-bold b. 
+                    | Materia orgánica en descomposición
                   li 
                     span.text-bold b. 
                     | Desechos industriales.
@@ -479,12 +483,12 @@ export default {
       {
         texto:
           'La Organización Mundial de la Salud (OMS), agencia perteneciente a la Organización de las Naciones Unidas (ONU), establece lineamientos relacionados con la protección de la salud pública asociada a la calidad del agua potable, bajo un enfoque integral de gestión preventiva del riesgo para garantizar la calidad del agua potable (Organización Mundial de la Salud - OMS, 2017). Así mismo, y en sintonía con lo establecido en el ámbito internacional por la OMS, en Colombia la Resolución 2115 de 2007 establece los valores máximos aceptables de los parámetros o características físicas, químicas y biológicas como criterios de calidad del agua para consumo humano.',
-        imagen: require('@/assets/template/tema1/imagen1.jpg'),
+        imagen: require('@/assets/template/tema1/imagen2.jpg'),
       },
       {
         texto:
           'En general, el agua contiene diversas sustancias o parámetros de manera natural que pueden ser factores de riesgo en una población, si el sistema de tratamiento no está acondicionado para minimizar las cargas contaminantes que puedan existir en el agua cruda. De esta forma, se pueden encontrar criterios de calidad en el agua destinada para el consumo humano basados en parámetros físicos, químicos y biológicos.',
-        imagen: require('@/assets/template/tema1/imagen2.jpg'),
+        imagen: require('@/assets/template/tema1/imagen1.jpg'),
       },
       {
         texto:
@@ -498,7 +502,7 @@ export default {
       },
       {
         texto:
-          'En este aspecto es importante recordar el ciclo natural hidrológico o ciclo natural del agua, definido por el Servicio Geológico de los Estados Unidos (USGS, por sus siglas en inglés) como: “la presencia y el movimiento del agua en la tierra y sobre ella. El agua de la tierra está siempre en movimiento y constantemente cambiando de estado, desde líquido, a vapor, a hielo, y viceversa. El ciclo del agua ha estado ocurriendo por billones de años, y la vida sobre la tierra depende de él; la Tierra sería un sitio inhóspito si el ciclo del agua no tuviese lugar.',
+          'En este aspecto es importante recordar el ciclo natural hidrológico o ciclo natural del agua, definido por el Servicio Geológico de los Estados Unidos (USGS, por sus siglas en inglés) como: “la presencia y el movimiento del agua en la tierra y sobre ella. El agua de la tierra está siempre en movimiento y constantemente cambiando de estado, desde líquido, a vapor, a hielo, y viceversa. El ciclo del agua ha estado ocurriendo por billones de años, y la vida sobre la tierra depende de él; la Tierra sería un sitio inhóspito si el ciclo del agua no tuviese lugar".',
         imagen: require('@/assets/template/tema1/imagen5.jpg'),
       },
     ],
