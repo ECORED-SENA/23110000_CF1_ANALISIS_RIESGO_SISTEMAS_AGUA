@@ -115,8 +115,6 @@ export default {
     {
       referencia:
         'Decreto 1575 de 2007. (s.f.). Decreto 1575 de 2007. Por el cual se establece el Sistema para la Protección y Control de la Calidad del Agua. Colombia.',
-      link:
-        'https://www.minambiente.gov.co/images/GestionIntegraldelRecursoHidrico/pdf/Disponibilidad-del-recurso-hidrico/Decreto-1575-de-2007.pdf',
     },
     {
       referencia:
@@ -294,6 +292,12 @@ export default {
     ],
     contenidoInstruccional: [
       {
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor metodológico y pedagógico',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
         nombre: 'Alexander Gómez Reyes',
         cargo: 'Instructor',
         centro: 'Regional Valle - Centro de la Construcción',
@@ -360,6 +364,12 @@ export default {
       {
         nombre: 'Jorge Enrique Haylock Calderín ',
         cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Veimar Celis Melendez ',
+        cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
