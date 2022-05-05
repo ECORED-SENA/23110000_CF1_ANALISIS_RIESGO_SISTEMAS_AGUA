@@ -7,7 +7,7 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0(data-aos="flip-right")
         .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center
           figure
-            img(src="@/assets/curso/actividad/SELECCIÓNMÚLTIPLE.png", alt="Actividad didáctica")
+            img(src="@/assets/curso/actividad/seleccion-multiple.svg", alt="Actividad didáctica")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo(data-aos="fade")
           h2 Comprensión de contenidos CF001
