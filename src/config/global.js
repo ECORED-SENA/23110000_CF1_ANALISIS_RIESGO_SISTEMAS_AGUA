@@ -327,6 +327,12 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
+        nombre: 'Maria Natalia Maldonado Delgado',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
         nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Producción audiovisual',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
