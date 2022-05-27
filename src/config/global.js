@@ -32,7 +32,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo:
-              'Operaciones unitarias en sistemas de tratamiento y distribución de agua potables',
+              'Operaciones unitarias en sistemas de tratamiento y distribución de agua potable',
             hash: 'operunit',
           },
           {
@@ -44,7 +44,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Insumos empleados en potabilización de aguas',
+            titulo: 'Insumos empleados en potabilización de agua',
             hash: 'insumos',
           },
         ],
