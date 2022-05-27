@@ -441,7 +441,7 @@
           span Bacterias coliformes en placas de Petri
     separador
     #insumos.titulo-segundo.color-acento-contenido.mt-5(data-aos="fade")
-      h2 1.3 Insumos empleados en potabilización de aguas
+      h2 1.3 Insumos empleados en potabilización de agua
     .row.justify-content-center.align-items-center
       .col-xl-4.col-sm-6.mb-4(data-aos="flip-right")
         img.mb-2(src='@/assets/curso/tema1/figura12.svg')
